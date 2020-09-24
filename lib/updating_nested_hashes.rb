@@ -27,7 +27,6 @@ def update_status
 
 
 
-
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
 end
@@ -51,7 +50,8 @@ def add_characters
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
-      }
+      },
+      :additional_characters
    }
 
    # Write code below that does the following programmatically:
